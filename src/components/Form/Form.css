@@ -1,0 +1,31 @@
+.FM-form {
+    width: 49.075%;
+}
+
+.FM-form input ,
+.FM-form textarea {
+    display: block;
+    width: 100%;
+    background-color: var(--input-bg-color);
+    padding: 21px 30px;
+    margin-bottom: 20px; 
+    border: none;
+}
+
+.FM-form textarea {
+    height: 231px;
+    margin-bottom: 40px !important;
+}
+
+.FM-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 25px 82px;
+    border: none;
+}
+
+@media screen and (max-width:768px) {
+    .FM-form {
+        width: 100%;
+    }
+}

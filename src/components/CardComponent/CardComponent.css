@@ -1,0 +1,45 @@
+.FM-card {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.FM-card-23 {
+    width: 23.14%;
+}
+
+.FM-card-23 img {
+    margin-bottom: 56px !important;
+}
+
+.FM-card-29 img {
+    margin-bottom: 25px !important;
+}
+
+.FM-card-23 .FM-h5 {
+    font-size: 1.6875rem;
+    margin-bottom: 19px;
+}
+
+.FM-card-25 .FM-h5 {
+    margin-bottom: 10px;
+}
+
+.FM-card-29 {
+    width: 29.167%;
+}
+
+@media screen and (max-width:768px) {
+    .FM-card-29,
+    .FM-card-23 {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .FM-card-29 {
+        width: 100%;
+    }
+    .FM-card-23 {
+        width: 80%;
+    }
+}

@@ -1,0 +1,25 @@
+.FM-Logo-img {
+    margin: 0 7.813%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.FM-Logo-img img {
+    margin: 60px 0;
+}
+
+@media screen and (max-width:768px) {
+    .FM-Logo-img {
+        justify-content: space-evenly;
+    }
+    .FM-Logo-img img {
+        margin: 30px 0;
+        min-width: 150px;
+        height: 34px;
+        object-fit: contain;
+    }
+}

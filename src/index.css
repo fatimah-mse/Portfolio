@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+:root {
+  --primary-color: #2D2D2D;
+  --secondary-color: #2B2B2B;
+  --black-color: #000;
+  --white-color: #fff;
+  --off-white-color: #F6DCE9;
+  --green-color: #009379;
+  --pink-color: #F9E6F0;
+  --border-color: #00000033;
+  --client-card-bg-border: #FFD285;
+  --input-bg-color: #F3F3F3;
+}
+
+.FM-padding {
+  padding: 0 7.813%;
+}
+
+.FM-h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.FM-h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+} 
+
+.FM-p {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width:768px) {
+  .FM-padding {
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,31 @@
+.FM-about-sec {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 81.482%;
+    margin: 0 auto;
+}
+
+.FM-about-desc {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 60px;
+}
+
+.FM-about-sec .FM-p {
+    line-height: 26px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.FM-about-sec .FM-p-green {
+    color: var(--off-white-color) !important;
+    background-color: var(--green-color) !important;
+}
+
+@media screen and (max-width:768px) {
+    .FM-about-sec {
+        max-width: 100%;
+    }
+}

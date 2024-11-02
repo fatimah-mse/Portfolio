@@ -1,0 +1,56 @@
+.FM-hero {
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.FM-hero div {
+    width: 51.584%;
+}
+
+.FM-hero img {
+    width: 46%;
+}
+
+.FM-h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 7.181%;
+}
+
+.FM-hero .FM-h5 {
+    margin-bottom: 7.181%;
+}
+
+@media screen and (max-width:900px) {
+    .FM-hero {
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .FM-hero div,
+    .FM-hero img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .FM-hero .FM-p {
+        margin-bottom: 60px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .FM-h1 {
+        font-size: 4.0625rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .FM-h1 {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,36 @@
+.FM-footer {
+    margin: 0 7.813%;
+    border-top: 2px solid var(--border-color);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FM-footer-right-sec {
+    width: 33.334%;
+}
+
+.FM-footer .FM-h2 {
+    text-align: start;
+    margin-bottom: 40px !important;
+}
+
+.FM-footer .FM-p {
+    margin-bottom: 60px !important;
+}
+
+.FM-footer-links {
+    margin-bottom: 80px;
+}
+
+.FM-footer-link {
+    margin-right: 13px;
+}
+
+@media screen and (max-width:768px) {
+    .FM-footer-right-sec {
+        width: 100%;
+    }
+}

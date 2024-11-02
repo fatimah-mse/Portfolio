@@ -1,0 +1,44 @@
+.FM-hero-about {
+    background-color: var(--pink-color);
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.FM-hero-left-sec {
+    max-width: 15.235%;
+    margin-right: 70px;
+}
+
+.FM-hero-right-sec {
+    max-width: 40.235%;
+}
+
+.FM-hero-about img {
+    border: 2px solid var(--black-color);
+    margin-bottom: 20px;
+}
+
+.FM-hero-about .FM-h5 {
+    font-weight: 900 !important;
+    font-size: 17px !important;
+}
+
+@media screen and (max-width:768px) {
+    .FM-hero-about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        height: 100%;
+        justify-content: start;
+    }
+    .FM-hero-left-sec  {
+        margin-bottom: 78px;
+    }
+    .FM-hero-left-sec,
+    .FM-hero-right-sec  {
+        max-width: 100%;
+    }
+}
